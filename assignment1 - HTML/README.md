@@ -6,4 +6,5 @@
 * This is an opportunity to get familiar with HTML structure, syntax, and the elements that are used to create web pages.
 
 ### What I Learned
-* I learned the basics of HTML, which is pretty much the foundation of a lot of web pages. You can get creative with HTML, of course, but it is still limited.
+* I learned the basics of HTML, which is pretty much the foundation of a lot of web pages. 
+* I also learned that I can get creative with HTML, of course, but it is still limited.
