@@ -1,2 +1,9 @@
-# comp1537
-COMP 1537 - Web Development 1
+# comp1537 Assignment 1
+* September 15, 2022
+* 100% Complete 
+
+### Objective
+* This is an opportunity to get familiar with HTML structure, syntax, and the elements that are used to create web pages.
+
+### What I Learned
+* I learned the basics of HTML, which is pretty much the foundation of a lot of web pages. You can get creative with HTML, of course, but it is still limited.
