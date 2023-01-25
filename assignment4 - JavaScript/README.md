@@ -8,3 +8,5 @@
 ### What I Learned
 * Starting this lab was frustrating at first since Node.js's a new language and I can't easily see it like HTML or CSS; but after seeing my professor's examples in lectures it made more sense.
 * I learned that Node virtually maps file folder systems. 
+* I learned how to serve up on port 8000
+* I learned how to add an favicon.io into a web page
