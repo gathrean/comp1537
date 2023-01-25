@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>assignment5</title>
+  <meta charset="utf-8">
+
+  <!-- FAVICON -->
+  <link href="/img/headphones.ico" rel="icon" type="image/x-icon" />
+
+  <!-- STYLESHEETS / CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="nav">
+
+    <!-- ean Logo -->
+    <div class="logo">
+      <img src="html/images/producer/ean.png" alt="eanternet logo" height="40">
+    </div>
+
+    <!-- Page 1 -->
+    <div class="page1">
+      <h2><a href="#">About</a></h2>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page2">
+      <h2><a href="#">Services</a></h2>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page3">
+      <h2><a href="#">Contact</a></h2>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="page4">
+      <h2><a href="https://www.youtube.com/eanternet/">YouTube</a></h2>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+    <h1>
+      <br><br><br><br><br><br>
+      THE WORLD'S #1 MARKETPLACE <br>TO BUY BEATS & WAV TRACK-OUTS
+    </h1>
+    <form>
+      <input type="text" placeholder="Try 'Hip hop beat'" name="search">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="container">
+
+    <!-- CONTENT 1: WAV LEASE -->
+    <div class="content1">
+      <img src="html/images/leases/1.jpg" alt="Frank Ocean - Blonde" style="width: 100%; object-fit:contain" />
+      <h2>WAV LEASE</h2>
+      <h3>$29 (untagged)</h3>
+      <p>
+        <i>Limited</i><br>
+        <b>MP3, WAV</b><br>
+      </p>
+
+      <h3>Usage Terms</h3>
+      <p>
+        • Used For Music Recording<br>
+        • Up to 7500 Copies<br>
+        • 50,000 Online Audio Steams<br>
+        • 1 Music Video<br><br>
+        <input type="button" value="Browse Now" />
+      </p>
+    </div>
+
+    <!-- CONTENT 2: STEM LEASE -->
+    <div class="content2">
+      <img src="html/images/leases/2.jpg" alt="Frank Ocean - Blonde" style="width: 100%; object-fit:contain" />
+      <h2>STEM LEASE</h2>
+      <h3> $99</h3>
+      <p>
+        <i>Regular</i><br>
+        <b>MP3, WAV, Stems</b><br>
+      </p>
+      <h3>Usage Terms</h3>
+      <p>
+        • Used For Music Recording<br>
+        • Up to 50,000 Copies<br>
+        • 1,000,000 Online Audio Steams<br>
+        • 1 Music Video<br><br>
+        <input type="button" value="Browse Now" />
+      </p>
+    </div>
+
+    <!-- CONTENT 3: UNLIMITED -->
+    <div class="content3">
+      <img src="html/images/leases/3.jpg" alt="Frank Ocean - Blonde" style="width: 100%; object-fit:contain" />
+      <h2>UNLIMITED</h2>
+      <h3>$149</h3>
+      <p>
+        <i>Unlimited</i><br>
+        <b>MP3, WAV, Stems</b><br>
+      </p>
+      <h3>Usage Terms</h3>
+      <p>
+        • Used For Music Recording<br>
+        • Unlimited Copies<br>
+        • Unlimited Online Audio Steams<br>
+        • Unlimited Music Videos<br><br>
+        <input type="button" value="Browse Now" />
+      </p>
+    </div>
+
+    <!-- CONTENT 4: EXCLUSIVE -->
+    <div class="content4">
+      <img src="html/images/leases/4.jpg" alt="Frank Ocean - Blonde" style="width: 100%; object-fit:contain" />
+      <h2>EXCLUSIVE</h2>
+      <h3>Offer Only</h3>
+      <p>
+        <i>Exclusive</i><br>
+        <b>MP3, WAV, Stems</b><br>
+      </p>
+      <h3>Usage Terms</h3>
+      <p>
+        • Used For Music Recording<br>
+        • Unlimited Copies<br>
+        • Unlimited Online Audio Steams<br>
+        • Unlimited Music Videos<br>
+        • <b>The beat is exclusive, so only you can use it.</b><br><br>
+        <input type="button" value="Browse Now" />
+      </p>
+    </div>
+
+    <!-- Content5: CUSTOM -->
+    <div class="content5">
+      <div id="content">
+        <img src="html/images/leases/5.jpg" alt="Cutom" style="width: 100%; object-fit:contain" />
+        <h2>CUSTOM BEAT</h2>
+        <h3>Offer Only</h3>
+
+        <div class="infoHTML">
+          <input id="infoHTML" type="button" value="Further Information " />
+          <input class="clear" type="button" value="Clear" />
+          <div class="ajax-stuff" id="info-html"></div>
+        </div>
+
+        <br>
+
+        <div class="infoJSON">
+          <input id="infoJSON" type="button" value="Answers to Prepare" />
+          <input class="clear" type="button" value="Clear" />
+          <div class="ajax-stuff" id="info-json"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Content6: Table -->
+    <div class="content6">
+      <h2>Summary</h2>
+      <p>Different options of leases are provided for artists to better match their budget.
+        <br> Provided below is a table to see the differences of the leases easily.
+      </p>
+
+
+      <!-- <div class="table" id="btn">
+        <input id="table" type="button" value="Table" />
+        <input class="clear" type="button" value="Clear" />
+        <div class="ajax-stuff" id="table-html"></div>
+      </div> -->
+
+      <div id="table"></div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+
+      <!-- BORDER -->
+      <hr class="dotted">
+
+      <div class="footer-under">
+
+        <!-- COPYRIGHT -->
+        <p style="text-align:left;">© 2022 Gathrean Dela Cruz, A01167248. <br> COMP 1537 - Web Development.</p>
+
+        <!-- SOCIAL MEDIA BUTTONS -->
+        <img id="social" src="html/images/producer/social.png" width="100" alt="social media">
+      </div>
+      <div class="social">
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/client.js"></script>
+  <script src="/assignment5.js"></script>
+  <script src="/public/js/client.js"></script>
+</body>
+
+</html>

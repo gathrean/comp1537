@@ -1,0 +1,90 @@
+<table class="table">
+  <tr>
+    <th class="table-head">Course Name</th>
+    <th class="table-head">Course Number</th>
+    <th class="table-head">Credits</th>
+    <th class="table-head">Days</th>
+    <th class="table-head">Location</th>
+    <th class="table-head">Term</th>
+  </tr>
+  <tr>
+    <td>Applied Mathematics</td>
+    <td>COMP 1113</td>
+    <td>4</td>
+    <td>Monday, Friday</td>
+    <td>SW03</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>CST Program Fundamentals</td>
+    <td>COMP 1100</td>
+    <td>1</td>
+    <td>Monday</td>
+    <td>Online</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Programming Methods</td>
+    <td>COMP 1510</td>
+    <td>7</td>
+    <td>Monday-Thursday</td>
+    <td>SE12</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Web Development 1</td>
+    <td>COMP 1537</td>
+    <td>4</td>
+    <td>Tuesday, Wednesday</td>
+    <td>Online</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Projects 1</td>
+    <td>COMP 1800</td>
+    <td>4</td>
+    <td>Tuesday, Thursday</td>
+    <td>Online</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Business Communications 1</td>
+    <td>COMM 1116</td>
+    <td>4</td>
+    <td>Thursday, Friday</td>
+    <td>SW03</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Biz Analysis &amp; System Design</td>
+    <td>COMP 1712</td>
+    <td>4</td>
+    <td>Thursday, Friday</td>
+    <td>SE12</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Procedural Programming</td>
+    <td>COMP 2510</td>
+    <td>5</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Object Oriented Programming 1</td>
+    <td>COMP 2522</td>
+    <td>5</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Relational Database Systems</td>
+    <td>COMP 2714</td>
+    <td>5</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+</table>

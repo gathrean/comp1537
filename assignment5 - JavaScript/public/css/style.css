@@ -1,0 +1,490 @@
+.container {
+  /*parent*/
+  box-sizing: border-box;
+  padding: 1rem;
+
+  display: grid;
+  height: 100vh;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.2fr 0.5fr;
+
+  grid-gap: 1rem;
+  border-spacing: 15px;
+
+  grid-template-areas:
+    "content1 content2 content3 content4 content5"
+    "footer footer footer footer footer";
+
+  grid-auto-rows: minimax(min-content, auto);
+  ;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  /* background-color: hsl(223, 37%, 46%); */
+  background-color: #080808;
+}
+
+#btn {
+  text-align: left;
+}
+#table table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: #E2E1DE;
+}
+
+#table th, td {
+  /* background-color: #080808; */
+  border-color: #1a1a1a;
+}
+
+a {
+  color: white;
+}
+
+p {
+  text-align: left;
+  color: #E2E1DE;
+}
+
+h1 {
+  padding: 50px;
+  text-align: left;
+  text-emphasis-style: bold;
+  color: white;
+}
+
+form {
+  padding-left: 50px;
+}
+
+h2 {
+  margin: none;
+  text-align: left;
+  text-emphasis-style: bold;
+  color: #ffffff;
+}
+
+h3 {
+  text-align: left;
+  color: #ffffff;
+}
+
+h4 {
+  color: #f42825;
+  text-emphasis-style: bold;
+  font-size: xx-large;
+}
+
+header {
+  color: #ffffff;
+  font-family: "Blonde";
+  src: url("/fonts/Blonde.otf") format("otf");
+}
+
+i {
+  color: #f42825;
+}
+
+b {
+  color: #f42825;
+}
+
+label {
+  color: #f42825;
+}
+
+aside {
+  width: auto;
+  height: max-content;
+  padding: 1rem;
+}
+
+form {
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+}
+
+.form-column {
+  float: auto;
+  width: auto;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.form-input {
+  margin-left: 1em;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+.mail-list {
+  margin-bottom: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.mail-label {
+  flex: 0 0 81px;
+}
+
+.info {
+  background-color: #40568C;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.nav {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "logo page1 page2 page3 page4";
+  grid-area: nav;
+
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  grid-area: nav;
+  background-color: #080808;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page3 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page4 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page1:hover {
+  color: #f42825;
+}
+
+.page2:hover {
+  color: #f42825;
+}
+
+.page3:hover {
+  color: #f42825;
+}
+
+.page4:hover {
+  color: #f42825;
+}
+
+.main {
+  grid-area: main;
+  background-color: #1a1a1a;
+
+  background-image: url(/images/producer/ye80deg.gif);
+  height: 620px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main h1 {
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  padding: none;
+  margin-top: 0;
+  text-align: left;
+  text-emphasis-style: bold;
+  color: white;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+}
+
+.content1 {
+  grid-area: content1;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+
+.content2 {
+  grid-area: content2;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+
+.content3 {
+  grid-area: content3;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+
+.content4 {
+  grid-area: content4;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+
+.content5 {
+  grid-area: content5;
+  box-sizing: border-box;
+  /* background-color: #3c3b3b; */
+  padding: 1rem;
+
+  background-color: #a41a17;
+  /* background-color: #1a1a1a; */
+
+  /* min-height: auto;
+  max-height: auto; */
+}
+
+.content6 {
+  grid-area: content6;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+
+
+.ajax_content {
+  float: left;
+  /* width: 33.3%; */
+  /* background-color: bisque; */
+}
+
+/* .content5 p {
+  min-height: auto;
+  max-height: auto;
+  padding: 15px;
+  text-align: left;
+  color: #E2E1DE;
+} */
+
+.footer {
+  grid-area: footer;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "copyright social";
+}
+
+.footer-under {
+  align-items: center;
+  display: flex;
+  grid-area: footer;
+}
+
+#social {
+  height: 30%;
+  object-fit: scale-down;
+  float: right;
+  margin: 0 0 0 auto;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+/*********************************************************************************************/
+/******************************************* MOBILE ******************************************/
+/*********************************************************************************************/
+/* Screen wider than 700px? and under*/
+@media only screen and (min-width:0) and (max-width:700px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+
+      0.4fr
+      /*content5*/
+
+      1.2fr
+      /*content1*/
+
+      1.2fr
+      /*content2*/
+
+      1.2fr
+      /*content3*/
+
+      1.2fr
+      /*footer*/
+    ;
+
+    grid-template-areas:
+      "content1"
+      "content2"
+      "content3"
+      "content4"
+      "content5"
+      "content6"
+      "footer"
+  }
+
+  .nav {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "logo"
+      "page1" "page2" "page3" "page4"
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .sidebar {
+    align-items: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-areas:
+      "links"
+      "icon1"; */
+  }
+
+}
+
+/************************************************************************************************/
+/******************************************* HALF PAGE ******************************************/
+/************************************************************************************************/
+
+/* Screen 701px to 1280px wide*/
+@media only screen and (min-width:701px) and (max-width:1280px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:
+      0.4fr
+      /*nav*/
+      2fr
+      /*content5*/
+      8fr
+      /*main*/
+      2.4fr
+      /*content1*/
+      2.4fr
+      /*content2*/
+      2.4fr
+      /*content3*/
+      2.4fr
+      /*footer*/
+    ;
+
+    height: 100vh;
+    grid-template-areas:
+      "nav nav"
+      "main main"
+      "content1 content2"
+      "content3 content4"
+      "content5 content5"
+      "content6 content6"
+      "footer footer"
+
+  }
+
+  .nav {
+    display: grid;
+  }
+
+}
+
+/*************************************************************************************************/
+/******************************************* FULL PAGE *******************************************/
+/*************************************************************************************************/
+
+/* Screen 1281px to 1600px wide*/
+@media only screen and (min-width:1281px) and (max-width:2400px) {
+  .container {
+    grid-auto-columns: 1fr;
+    grid-auto-rows:
+      /* Content5: */
+      0.4fr
+      /* Content1: */
+      1.2fr
+      /* Content2: */
+      1.2fr
+      /* Content3: */
+      1.2fr 1.2fr
+      /* Footer: */
+      1.2fr;
+
+    grid-template-areas:
+      "content1 content2 content3 content4 content5"
+      "content6 content6 content6 content6 content5"
+      "footer footer footer footer content5";
+
+  }
+
+  .nav {
+    display: grid;
+  }
+
+  /* .content5 {
+    grid-auto-columns: 1fr;
+    min-height: auto;
+    max-height: auto;
+    grid-auto-rows: auto;
+  } */
+
+  .footer {
+    grid-auto-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas: "copyright social";
+  }
+
+}
